@@ -1,31 +1,18 @@
-<div align="center">
-  <a href="https://digitalinnovation.one/">
-    <img src="img/dio_logo.png" width="230px">
-  </a>
-</div>
+# 🐍 Snake Game (HTML, CSS, JS, Canvas)
 
+Recriação moderna do clássico jogo da cobrinha (**Snake**) utilizando **HTML5**, **CSS3** e **JavaScript** com **Canvas**.  
+Este projeto foi refatorado para aplicar boas práticas de semântica, responsividade e organização de código.
 
-# Snake (A.K.A. jogo da cobrinha) :snake:
+---
 
-## Objetivo:
-Reproduzir o famoso jogo da cobrinha (Snake)
+## 🚀 Funcionalidades
+- Movimento da cobra com as setas do teclado
+- Pontuação em tempo real
+- Recorde salvo em **localStorage**
+- Colisão com bordas e corpo da cobra
+- Loop de jogo otimizado com `requestAnimationFrame`
+- Layout responsivo e tema escuro automático (`prefers-color-scheme`)
 
-## Conceitos aprendidos:
-- Criação de página HTML.
-- Utilização de classes e ID para identificação.
-- Utilização da api HTML canvas.
-- Manipulação de eventos gerados pelo teclado.
-- inserção de imagens utilizadas no canvas. (adicionado por mim)
-- Persistência por meio do uso do localstorage. (adicionado por mim)
+---
 
-## URL:
- [https://marlonveiga-santos.github.io/snake-dio/](https://marlonveiga-santos.github.io/snake-dio/)
- 
-## Fonte do treinamento:
-
-[Bootcamp - HTML Web Developer](https://web.digitalinnovation.one/track/html-web-developer?tab=path)
-
-## Demo:
-
-![Demonstration image](img/demo_image.png)
-![Demonstration image 2](img/demo_image_2.png)
+## 📂 Estrutura do projeto

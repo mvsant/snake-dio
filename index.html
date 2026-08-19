@@ -1,25 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
-    <title>Snake !!!</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <h1>SNAKE GAME !!!</h1>
-    <div class="score">
-        <h3>SCORE:</h3>
-        <p id="score">0</p>
-        <b>:|:</b>
-        <h3>high Score:</h3>
-        <p id="high-score"></p>
-    </div>
-    <canvas id="canvas" width="512" height="512"></canvas>
-</body>
+  <header>
+    <h1>Snake Game</h1>
+  </header>
 
+  <main>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+    <section class="scoreboard">
+      <p>Pontuação: <span id="score">0</span></p>
+      <p>Recorde: <span id="highScore">0</span></p>
+    </section>
+    <section class="controls">
+      <p>Use as setas para jogar</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 - Snake DIO Clone</p>
+  </footer>
+
+  <script src="js/game.js"></script>
+</body>
 </html>
